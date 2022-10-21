@@ -1,1 +1,1 @@
-This repository contains all my code from the python pro bootcamp.
+This folder contains all code for the projects and challenges in the python pro bootcamp.
