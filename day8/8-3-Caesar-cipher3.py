@@ -1,6 +1,3 @@
-from turtle import pos, position
-
-
 def caesar(path, user_message, shift_count):
     if path == "encode":
         cipher_string = ""
