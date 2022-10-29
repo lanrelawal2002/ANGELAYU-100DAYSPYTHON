@@ -61,6 +61,7 @@ travel_log2 = [
 
 # print(travel_log2)
 # print(travel_log2[1]["cities_visited"][0])
+
 print(travel_log2[0]["time_of_visits"]["Saturday"])
 
 # for item in travel_log2[2]:
