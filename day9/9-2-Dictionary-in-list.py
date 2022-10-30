@@ -1,4 +1,4 @@
-# my code for exercise 9-2-Dictionary-in-list
+# my code for project 9-2-Dictionary-in-list
 
 travel_log = [
     {
