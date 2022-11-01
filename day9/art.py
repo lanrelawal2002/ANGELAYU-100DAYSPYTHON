@@ -11,3 +11,5 @@ logo = '''
                        .-------------.
                       /_______________\\
 '''
+
+# Logo for blind_auction project
