@@ -31,6 +31,7 @@ while not bidding_finished:
     print("Someone else is bidding\n") # I added this line of code.
   
 
+
 """
 FAQ: My console doesn't clear()
 
