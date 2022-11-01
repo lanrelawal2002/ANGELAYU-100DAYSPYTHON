@@ -34,9 +34,9 @@ for char in range(1, n_numbers + 1):
 print("\n")
 print("Please wait.....\n")
 print("Your password is been generated\n")
-# print(value)
+print(value)
 random.shuffle(value)
-# print(value)
+print(value)
 
 password = ""
 for item in value:
