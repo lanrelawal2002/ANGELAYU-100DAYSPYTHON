@@ -17,13 +17,7 @@ print(format_name(input("What is your first name? ").lower(), input("What is you
 
 
 
-
-
-
-
-
-
-
+# REVIEWE OF NESTING DICTIONARIES AND LISTS IN A LIST
 
 # nest_dict_in_list = [
 #     {
