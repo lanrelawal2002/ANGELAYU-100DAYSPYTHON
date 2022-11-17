@@ -48,24 +48,26 @@ def calculator():
         calculator_function = operations[operation_symbol]
         answer = calculator_function(num1, num2)
         print(f"{num1} {operation_symbol} {num2} = {answer}")
+        print("\n")
 
         # PROCEED = False
         CONTINUE = True
 
         while CONTINUE:
-            user_request = input(f"Type 'c' to continue with {answer},'r' to restart, 'e' to exit: ").lower()
+            user_request = input(f"Type 'c' to continue with {answer},'r' to restart, 'e' to exit: ")
             if user_request == "r":
                 CONTINUE = False
                 PROCEED = False
                 calculator()
             elif user_request == "c":
+                print("\n")
                 num1 = answer
                 CONTINUE = False
             elif user_request == "e":
                 CONTINUE = False
                 PROCEED = False
             else:
-                print(f"enter either 'r', 'c', or 'e': ")
+                print(f"\nenter either 'r', 'c', or 'e': \n")
                 
 calculator()
 
