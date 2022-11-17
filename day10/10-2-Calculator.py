@@ -58,7 +58,7 @@ def casio():
     RERUN_CALCULATOR = True
 
     while RERUN_CALCULATOR:
-        user_rerun = input(f"Type 'y' to continue with {start_answer}, 'r' to restart the calculator, 'e' to exit the calcultor: ").lower()
+        user_rerun = input(f"Type 'y' to continue with {start_answer}, 'r' to restart the calculator, 'e' to exit the calcultor: ")
         if user_rerun == "r":
             RERUN_CALCULATOR = False
             casio()
@@ -74,15 +74,7 @@ def casio():
             print(f".......\nEXITING CALCULATOR")
             RERUN_CALCULATOR = False
         else:
-            print(f"Please enter either 'y', 'r' or 'e'")
+            print(f"\nPlease enter either 'y', 'r' or 'e'\n")
 
 casio()
-
-
-
-# operation_symbol = input("Pick another operation: ")
-# num3 = int(input("Waht is the next number?: "))
-# calculator_function = operations[operation_symbol]
-# second_answer = calculator_function(start_answer, num3)
-
-# print(f"{start_answer} {operation_symbol} {num3} = {second_answer}")
+print(f"Goodbye!!!")
