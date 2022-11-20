@@ -9,4 +9,5 @@ Nested_values = {
     "Exits": 5
 }
 
-print(Nested_values)
+# print(Nested_values)
+print(Nested_values["Spent"])
