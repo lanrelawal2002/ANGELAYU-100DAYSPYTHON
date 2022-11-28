@@ -76,6 +76,7 @@ unspc_dict = {
 value = ""
 
 for position in unspc_dict:
-	value += unspc_dict[position]
+	# value += unspc_dict[position]
+    print(unspc_dict[position])
 
-print(value)
+# print(value)
