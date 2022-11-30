@@ -6,6 +6,7 @@ import random
 from art import logo
 
 def select_level():
+    """Function to check level"""
     level_confirm = True
 
     while level_confirm:
@@ -25,6 +26,7 @@ def select_level():
 
 
 def game_run(total_attempts):
+    """Function to compute number guessed"""
     print(f"\nYou have {total_attempts} attempts left.\n")
     check_input = True
 

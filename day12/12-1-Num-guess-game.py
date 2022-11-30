@@ -5,6 +5,7 @@ import random
 from art import logo
 
 def player_trials():
+    """Function to check level and compute number guessed"""
     level_confirm = True
 
     while level_confirm:
