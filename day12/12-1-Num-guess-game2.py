@@ -1,5 +1,5 @@
 # my second code for the number guessing game project
-# I used only one function and two global variables
+# I used two functions and one global variable
 
 
 import random
