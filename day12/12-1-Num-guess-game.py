@@ -1,4 +1,5 @@
 # my first code for the number guessing game project
+# I used only one function and one global variable
 
 import random
 from art import logo
