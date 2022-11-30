@@ -14,12 +14,14 @@ import random
 
 def check_value():
     while value:
-        if score > 1:
+        if score > 1 and (score * 2) == 15:
             # value = False
             return "no coins left"
-        elif score < 1:
+        elif score > 55 and (score **2) < 5 and (score + 18) != 13:
             # value = False
             return "find coins first"
+        elif score == 11:
+            return 11
 
 
 value = True
