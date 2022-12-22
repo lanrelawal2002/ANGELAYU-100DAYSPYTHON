@@ -1,5 +1,5 @@
 # my first version of the coffee machine project
-# I fixed the dollar top up problem by altering the content of the "resources" dictionary.
+# I fixed the money top up problem by altering the content of the "resources" dictionary.
 
 def show_resources():
     water_left = resources["water"]
