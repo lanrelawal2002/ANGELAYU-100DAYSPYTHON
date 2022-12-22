@@ -2,6 +2,7 @@
 # I fixed the money top up problem by altering the content of the "resources" dictionary.
 
 def show_resources():
+    """Checks the amount of resources left"""
     water_left = resources["water"]
     milk_left = resources["milk"]
     coffee_left = resources["coffee"]
@@ -11,6 +12,7 @@ def show_resources():
 
 
 def check_resources(current_dict, resources_dict, drink_selected):
+    """Checks if resources available can make drink requested"""
     if resources_dict["water"] < current_dict["ingredients"]["water"]:
         return f"Sorry there is not enough water"
     elif resources_dict["coffee"] < current_dict["ingredients"]["coffee"]:
@@ -24,6 +26,7 @@ def check_resources(current_dict, resources_dict, drink_selected):
 
 
 def coin_amount():
+    """Returns total amount from coins inputted"""
     print("Please insert coins")
     quarters = int(input("How many quarters?: "))
     dimes = int(input("How many dimes?: "))
@@ -36,6 +39,7 @@ def coin_amount():
 
 
 def coin_process(total_money, working_dict):
+    """Checks total amount inputted for refund or change"""
     if total_money < working_dict["cost"]:
         return 0
     elif total_money == working_dict["cost"]:
@@ -47,6 +51,7 @@ def coin_process(total_money, working_dict):
 
 
 def adjust_resources(drink_selected, resources_dict, working_dict):
+    """Deducts resources for drink made and tops up money for drink"""
     resources_dict["water"] = resources_dict["water"] - working_dict["ingredients"]["water"]
     resources_dict["coffee"] = resources_dict["coffee"] - working_dict["ingredients"]["coffee"]
     resources_dict["balance"] = resources_dict["balance"] + working_dict["cost"]
