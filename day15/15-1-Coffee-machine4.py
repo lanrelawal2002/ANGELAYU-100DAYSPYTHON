@@ -109,7 +109,7 @@ while game_run_outer:
                 print(f"Sorry that's not enough money. Money refunded.")
             elif total_amount == money_returned:
                 print(f"Here is your {user_request}. Enjoy!!!")
-                top_up = adjust_resources(user_request, resources, drink_dict, original_balance)
+                top_up = adjust_resources(resources, drink_dict, original_balance)
                 original_balance = top_up
             elif total_amount > money_returned:
                 print(f"Here is ${money_returned} in change.")
