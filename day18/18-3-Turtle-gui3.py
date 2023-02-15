@@ -1,8 +1,13 @@
+# testing ground
+
 import random
-from turtle import Turtle, Screen
+import turtle
 
-ninja = Turtle()
-print(ninja.width())
+ninja = turtle.Turtle()
+# print(ninja.width())
+# print(ninja.heading())
+print(turtle.colormode())
+print(ninja.pencolor())
 
-ninja_screen = Screen()
+ninja_screen = turtle.Screen()
 ninja_screen.exitonclick()
