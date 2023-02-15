@@ -1,3 +1,4 @@
+# my version of random walk
 from turtle import Turtle, Screen
 import random
 
@@ -16,7 +17,7 @@ raphael = Turtle()
 raphael.pensize(10)
 raphael.speed(10)
 
-angles = [90, 0, 180]
+angles = [90, 0, 180, 270]
 walking = True
 counter = 100
 
