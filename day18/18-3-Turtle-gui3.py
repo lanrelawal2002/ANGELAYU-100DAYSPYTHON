@@ -5,7 +5,7 @@ import turtle
 
 ninja = turtle.Turtle()
 # print(ninja.width())
-# print(ninja.heading())
+print(ninja.heading())
 print(turtle.colormode())
 print(ninja.pencolor())
 
