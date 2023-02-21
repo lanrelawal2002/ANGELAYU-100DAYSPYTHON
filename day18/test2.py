@@ -6,5 +6,15 @@
 # print(all_colors[0])
 
 
-for digit in range(5):
-    print(digit)
+# for digit in range(5):
+#     print(digit)
+
+
+# testing ground for iterable
+
+regions = ("east", "west", "north", "south")
+# print(regions)
+# print(type(regions))
+
+for options in regions:
+    print(f"people of the {options}.")
